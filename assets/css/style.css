@@ -104,6 +104,10 @@ img {
     border-radius: 10px;
 }
 
+.service span{
+    color: #80cdf7;
+}
+
 @media (min-width: 992px) {
     .navbar {
         min-height: 100vh;
@@ -149,8 +153,11 @@ img {
 
 
 .link-custom {
-    font-weight: 700;
+    color: #3c3b3b;
+    font-weight: 500;
     position: relative;
+    background-color: #e69b4a;
+    border-radius: 8px;
 }
 
 .link-custom::after {
